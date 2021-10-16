@@ -1,7 +1,10 @@
 @import "./abstract/abstract";
 @import "./base";
 @import "./layout/layout";
+@import "./layout/dashboard";
 
+@import "./typography/typography";
+@import "./utils/utils";
 // COMPONENTS
 @import "./components/topnav";
 @import "./components/sidbar";

@@ -1,0 +1,55 @@
+[class^="heading"] {
+	display: inline-block;
+}
+
+.heading {
+	&_tiny {
+		font-size: 1.4rem !important;
+		font-weight: $weight-1;
+	}
+	&_small_1 {
+		font-size: 1.5rem !important;
+		font-weight: $weight-1;
+		@include respond(gsm) {
+			font-size: 1.8rem;
+		}
+	}
+	&_small {
+		font-size: 2rem;
+		font-weight: $weight-1;
+	}
+
+	&_med_lag {
+		font-size: 4.8rem;
+		font-weight: $weight-2;
+
+		@include respond(gsm) {
+			font-size: 4.3rem;
+		}
+	}
+	&_med {
+		font-size: 3rem;
+		font-weight: $weight-2;
+		@include respond(gsm) {
+			font-size: 2.6rem;
+		}
+	}
+	&_med_avg {
+		font-size: 2.1rem;
+		font-weight: $weight-2;
+		@include respond(gsm) {
+			font-size: 2.3rem;
+		}
+	}
+	&_large {
+		font-size: 7.2rem;
+		font-weight: $weight-3;
+		color: $col-pri;
+	}
+}
+.small {
+	font-size: 1.3rem;
+}
+.smaller {
+	font-size: 1.2rem;
+}

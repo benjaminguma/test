@@ -1,47 +1,41 @@
 import { useState, createContext } from 'react';
-import Sidebar from '../Shared/UIelements/Sidebar';
-import { UseMerchantOverview } from '../../Services/merchant/merchant.queries';
+import Sidebar from '../components/Sidebar';
+import useResize, { USeResize } from '../hooks/UseResize';
 export const Ctx = createContext();
 
 const DashboardLayout = ({ children }) => {
+	const width = useResize();
 	const sidebarData = [
 		{
 			title: 'dashboard',
-			icon: '',
+			icon: 'dash',
 		},
 		{
 			title: 'appointments',
-			icon: 'dashboard',
+			icon: 'appointments',
 		},
 		{
-			title: 'healthwoekers',
-			icon: 'order',
+			title: 'health workers',
+			icon: 'healthworkers',
 		},
 		{
 			title: 'departments',
-			icon: 'product',
-			link: 'catalogue/products',
+			icon: 'depatment',
 		},
-		// {
-		//     title: "plugins",
-		//     icon: "plugins",
-		// },
 		{
 			title: 'payments',
-			icon: 'manage',
+			icon: 'payment',
 		},
 		{
 			title: 'help',
-			icon: 'account',
+			icon: 'help',
 		},
 	];
 	return (
 		<Ctx.Provider
-			value={
-				{
-					//  some values
-				}
-			}>
+			value={{
+				width, //  some values
+			}}>
 			<main className='dashboard_layout'>
 				<Sidebar data={sidebarData} />
 				{children}

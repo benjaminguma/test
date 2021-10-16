@@ -11,7 +11,7 @@
 	background-color: $col-white-1;
 }
 .bg-gra-l {
-	background-color: $col-gray-light;
+	background-color: $col-gray-4;
 }
 
 .bg-b {
@@ -24,15 +24,8 @@
 	background-color: $col-yell;
 }
 
-.bg-g-1 {
-	background-color: $col-gray-bg;
-}
-.bg-g-2 {
-	background-color: darken($col-gray-bg, 6);
-}
-.bg-g-dark {
-	background-color: $col-gray-dark;
-}
+
+
 .bg-dis {
 	background-color: $col-dis;
 }
@@ -82,26 +75,31 @@
 	border: 1px solid $col-blue;
 }
 // ! COLORS
-.col-g {
-	color: $col-gray-2;
+.col-g-1 {
+	color: $col-gray-1;
+}
+.col-g-2 {
+	color: $col-gray-2
+}
+.col-g-3 {
+	color: $col-gray-3
+}
+.col-g-4 {
+	color: $col-gray-4
 }
 .col-gra-svg {
 	color: $col-gray-svg;
 	fill: $col-gray-svg;
 	stroke: $col-gray-svg;
 }
-.col-gr {
-	color: $col-green;
-}
+
 .col-w {
 	fill: $col-white;
 	color: $col-white;
 }
-.col-gra-d {
-	color: $col-gray-dark;
-}
+
 .col-gra-l {
-	color: $col-gray-light;
+	color: $col-gray-4;
 }
 .col-gra-bt-l {
 	color: $col-gray-btn-l;
@@ -113,12 +111,7 @@
 .col-w-1 {
 	color: $col-white-1;
 }
-.col-r {
-	color: $col-red;
-}
-.col-or {
-	color: $col-or;
-}
+
 .col-pri {
 	color: $col-pri;
 	stroke: $col-pri;
@@ -449,7 +442,7 @@
 	gap: 2rem;
 }
 .hr {
-	color: $col-gray-light;
+	color: $col-gray-4;
 	display: grid;
 	grid-template-columns: 1fr min-content 1fr;
 	align-items: center;

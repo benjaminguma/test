@@ -2,16 +2,16 @@
 	font-size: 1.6rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
 	padding-top: 4rem;
-	padding-bottom: 2rem;
+	padding-bottom: 3rem;
+	gap: 3rem;
 
 	&_list {
 		padding: 1.5rem 0;
 	}
 	&_logo {
-		width: 11rem;
-		height: 5rem;
+		// width: 11rem;
+		height: 6rem;
 	}
 
 	&_base {
@@ -34,7 +34,7 @@
 		width: 100%;
 		padding: 1.4rem;
 		padding-left: 14.999%;
-		color: $col-white-1;
+		color: $col-gray-2;
 		font-weight: $weight-1;
 		position: relative;
 		font-size: 1.6rem;
@@ -51,7 +51,7 @@
 
 		&:hover,
 		&.active {
-			background-color: #002955;
+	 color: $col-pri;
 
 			&::before {
 				opacity: 1;

@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
 *,
 *::before,
 *::after {
@@ -23,10 +24,10 @@ body {
 	// font-family: "Rubik", sans-serif;
 	font-family: Nunito, Arial;
 	min-height: 100vh;
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	font-weight: 500;
 	// font-size: 1.6rem;
-	color: $col-gray-dark;
+	color: $col-gray-4;
 	overflow-x: hidden;
 }
 
