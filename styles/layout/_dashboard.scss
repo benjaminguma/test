@@ -1,0 +1,19 @@
+.dashboard_layout {
+	display: grid;
+	grid-template-columns: max-content 1fr;
+	height: 100vh;
+	overflow: hidden;
+
+	& > *:not(.sidebar) {
+		background-color: $col-white-1;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		position: relative;
+	}
+
+	.sidebar {
+		align-self: start;
+		width: 22rem;
+		height: 100vh;
+	}
+}

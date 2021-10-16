@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+html {
+	font-size: 62.5%;
+
+	@include respond_min(1500) {
+		font-size: 65.5%;
+	}
+
+	@include respond(gsm) {
+		font-size: 59%;
+	}
+}
+
+body {
+	// font-family: "Rubik", sans-serif;
+	font-family: Nunito, Arial;
+	min-height: 100vh;
+	font-size: 1.6rem;
+	font-weight: 500;
+	// font-size: 1.6rem;
+	color: $col-gray-dark;
+	overflow-x: hidden;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+	font-family: inherit;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+.back_nav {
+	border-bottom: 2px solid $col-bord-1;
+}
+button:disabled,
+.disabled {
+	cursor: not-allowed;
+	color: $col-white !important;
+}
+input {
+	border: none;
+	&[type="file"] {
+		display: none;
+	}
+
+	&:focus {
+		border: none;
+	}
+}
+::-webkit-scrollbar {
+	width: 10px;
+
+	background-color: hsl(60, 4%, 84%);
+
+	&-thumb {
+		background-color: hsl(0, 0%, 70%);
+		border-radius: 100px;
+	}
+}
+#force {
+	padding: 3rem 0;
+	justify-items: center;
+	display: grid;
+	.button_box {
+		column-gap: 2.5rem;
+	}
+	& > * {
+		box-sizing: border-box;
+		width: 85% !important;
+		margin: auto !important;
+	}
+}
+
+#map_box {
+	min-height: 40rem;
+}
+
+.pac {
+	&-container {
+		border-radius: 5px;
+		padding: 1.5rem 2.5rem;
+		box-shadow: 3px 1px 0.5rem rgba(0, 0, 0, 0.1);
+		font-family: "Rubik";
+	}
+	&-icon {
+		transform: scale(1.2);
+	}
+	&-item {
+		padding: 0.6rem 0;
+		border-color: $col-bord-3;
+		transition: 0.2s linear;
+
+		&:hover {
+			transition: 0.23s linear;
+			background-color: rgba(#b3ccea, 0.2);
+		}
+		& > * {
+			font-size: 1.7rem;
+		}
+	}
+}
+
+.recharts-wrapper {
+	margin-left: -2rem;
+}
