@@ -6,6 +6,9 @@
 @import "./typography/typography";
 @import "./utils/utils";
 // COMPONENTS
+@import "./components/stat_card";
 @import "./components/topnav";
 @import "./components/sidbar";
 @import "./components/table";
+// PAGE
+@import "./pages/home"
