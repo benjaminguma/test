@@ -20,7 +20,7 @@ const DashboardLayout = ({ children }) => {
 		},
 		{
 			title: 'departments',
-			icon: 'depatment',
+			icon: 'department',
 		},
 		{
 			title: 'payments',

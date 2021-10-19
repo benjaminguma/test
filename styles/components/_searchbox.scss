@@ -2,10 +2,13 @@
 
 .search {
 	&_input {
-		max-width: 30rem;
+		width: 35rem;
+		flex:1;
 		svg {
+			transform: $transition linear ;
+			fill:#CACCCF;
 			order: -1;
-			filter: grayscale(0.7);
+			
 		}
 		& > input[type="text"] {
 			padding: 0.7em;
@@ -20,7 +23,7 @@
 				border: none;
 			}
 			&:focus ~ svg {
-				filter: grayscale(0);
+				fill:$col-pri;
 			}
 			flex: 1;
 		}

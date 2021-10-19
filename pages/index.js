@@ -1,3 +1,4 @@
+import Header from '../components/Header';
 import StatContainer from '../components/StatContainer';
 import DashboardLayout from '../layout';
 
@@ -5,6 +6,7 @@ export default function Home({ stats }) {
 	return (
 		<DashboardLayout>
 			<main className='main'>
+				<Header />
 				<StatContainer stats={stats} />
 			</main>
 		</DashboardLayout>

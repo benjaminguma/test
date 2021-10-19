@@ -54,6 +54,7 @@ button:disabled,
 }
 input {
 	border: none;
+	font-family: inherit;
 	&[type="file"] {
 		display: none;
 	}

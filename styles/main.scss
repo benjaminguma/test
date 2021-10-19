@@ -6,9 +6,11 @@
 @import "./typography/typography";
 @import "./utils/utils";
 // COMPONENTS
-@import "./components/stat_card";
-@import "./components/topnav";
+@import "./components/button";
+@import "./components/header";
 @import "./components/sidbar";
+@import "./components/stat_card";
+@import "./components/searchbox";
 @import "./components/table";
 // PAGE
 @import "./pages/home"

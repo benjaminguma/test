@@ -1,0 +1,19 @@
+.noti_btn{
+     position: relative;
+
+     &::before{
+         content: "";
+         position: absolute;
+         content: attr(data-count);
+         width: 1.7rem;
+         height: 1.7rem;
+         box-shadow: 0 0 0 2px $col-white-1;
+         right:-25%;
+         top: -25%;
+         font-weight: $weight-2;
+         background-color: #FF6760;
+         color: $col-white;
+         font-size: 1.2rem;
+         border-radius: 50%;
+     }
+}
