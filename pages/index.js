@@ -1,3 +1,4 @@
+import ChartContainer from '../components/ChartContainer';
 import Header from '../components/Header';
 import StatContainer from '../components/StatContainer';
 import DashboardLayout from '../layout';
@@ -8,6 +9,7 @@ export default function Home({ stats }) {
 			<main className='main'>
 				<Header />
 				<StatContainer stats={stats} />
+				<ChartContainer />
 			</main>
 		</DashboardLayout>
 	);

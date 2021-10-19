@@ -30,8 +30,9 @@ $cons: 833 718 675 583 752;
     margin: auto;
 }
 .div_4 {
+    --width:23rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(14rem, 23rem));
+    grid-template-columns: repeat(auto-fit, minmax(var(--width),1fr ));
     gap: 2.2rem;
 }
 
