@@ -31,7 +31,7 @@ const Table = () => {
 					</table>
 				</div>
 			</div>
-		</section>
+		</section> 
 	);
 };
 

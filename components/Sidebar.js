@@ -1,6 +1,6 @@
 import { Fragment, useContext, useEffect } from 'react';
 import Link from 'next/link';
-import SidebarLink from './sidebarLink';
+import SidebarLink from './SidebarLink';
 import { Ctx } from '../layout';
 import UseToggle from '../hooks/UseToogle';
 import { motion, AnimatePresence } from 'framer-motion';
