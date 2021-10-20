@@ -36,11 +36,6 @@ $cons: 833 718 675 583 752;
     gap: 2.2rem;
 }
 
-.smart_con {
-    grid-template-columns: repeat(auto-fit, 250px);
-    display: grid;
-    gap: 4rem;
-}
 .con {
     &_head {
         padding: 2.5rem 0;
@@ -89,37 +84,18 @@ $cons: 833 718 675 583 752;
     grid-template-columns: 4fr 1fr 1fr;
     gap: var(--gap);
 }
-.con_4_1_1,
-.con_4,
-.con_1_4,
-.con_5_2,
-.con_4_1,
-.con_2_2,
-.con_1_1,
-.con_1_1_1 {
+
+.con_1_1{
     display: grid;
 }
-.con_4_1 {
-    --gap: 2rem;
-    grid-template-columns: 4.45fr 1.5fr;
-    gap: var(--gap);
-}
-.con_5_2 {
-    --gap: 2rem;
-    grid-template-columns: 5fr 1.5fr;
-    gap: var(--gap);
-}
+
 .con_1_1 {
     --gap: 4rem;
-    grid-template-columns: repeat(2, 1fr);
+    --width : 35rem;
+    grid-template-columns: repeat(auto-fit, minmax(var(--width),1fr));
     gap: var(--gap);
 }
-.con_1_1_1 {
-    --width: 30rem;
-    --gap: 4%;
-    grid-template-columns: repeat(auto-fit, minmax(var(--width), 1fr));
-    gap: var(--gap);
-}
+
 
 .grid_1_x_1 {
     display: grid;

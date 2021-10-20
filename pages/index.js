@@ -1,6 +1,7 @@
 import ChartContainer from '../components/ChartContainer';
 import Header from '../components/Header';
 import StatContainer from '../components/StatContainer';
+import Table from '../components/Table';
 import DashboardLayout from '../layout';
 
 export default function Home({ stats }) {
@@ -10,6 +11,7 @@ export default function Home({ stats }) {
 				<Header />
 				<StatContainer stats={stats} />
 				<ChartContainer />
+				<Table />
 			</main>
 		</DashboardLayout>
 	);

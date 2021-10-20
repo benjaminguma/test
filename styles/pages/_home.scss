@@ -3,3 +3,18 @@
         margin-bottom: 3rem;
     }
 }
+
+.data_table{
+    tr,
+    &_title{
+        padding: 0 2.6rem;
+    }
+    .customer_tab{
+        padding: 3rem 0;
+    }
+
+    .prof_img{
+        width: 5rem;
+        height: 5rem;
+    }
+}

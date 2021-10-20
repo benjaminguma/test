@@ -42,3 +42,51 @@ export const data = [
 		amt: 2100,
 	},
 ];
+
+export const dummyPatients = [
+	{
+		image: 'A',
+		name: 'Babanginda Fox',
+		email: 'babgindafox@example.com',
+		date: '10/10/2020',
+		visitTime: '09:15 - 09-45am',
+		chws: 'Blessing Chidi',
+		plan: 'BASIC',
+	},
+	{
+		image: 'B',
+		name: 'Jennie Johnson',
+		email: 'jenniejohnson@example.com',
+		date: '10/12/2020',
+		visitTime: '12:00 - 12-45pm',
+		chws: 'Esther Lucky',
+		plan: 'FAMILY',
+	},
+	{
+		image: 'C',
+		name: 'Lucky Williams',
+		email: 'luckywillaim@example.com',
+		date: '10/13/2020',
+		visitTime: '01:15 - 01-45pm',
+		chws: 'Blessing Chidi',
+		plan: 'BASIC',
+	},
+	{
+		image: 'D',
+		name: 'Blessing Wilsom',
+		email: 'blessingwilliam@gmail.com',
+		date: '10/14/2020',
+		visitTime: '02:00 - 02-45pm',
+		chws: 'Esther Lucky',
+		plan: 'FAMILY',
+	},
+	{
+		image: 'E',
+		name: 'Purest Meion',
+		email: 'purestmeion@example.com',
+		date: '10/15/2020',
+		visitTime: '12:00 - 12-45pm',
+		chws: ' Blessing Chidi',
+		plan: 'BASIC',
+	},
+];

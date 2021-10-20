@@ -4,9 +4,8 @@
 	height: 100vh;
 	overflow: hidden;
 
-	& > *:not(.sidebar) {
+	main {
 		background-color: $col-white-1;
-		overflow-x: hidden;
 		overflow-y: scroll;
 		position: relative;
 	}
